@@ -1,0 +1,16 @@
+.section-c {
+  background-image: url("../assets/img/coman-sec.jpg");
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+.section-c {
+  background-repeat: repeat-y;
+}
+.section-c {
+  background-position: 100% 60%;
+}

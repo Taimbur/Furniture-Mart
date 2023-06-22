@@ -1,0 +1,19 @@
+.banner-sec {
+  background: #0b0543;
+  height: auto;
+  color: white;
+  width: 100%;
+}
+img {
+  float: right;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+}
+.btn {
+  float: right;
+}

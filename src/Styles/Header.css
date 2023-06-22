@@ -1,0 +1,68 @@
+.ri-shopping-bag-line {
+  font-size: 60px;
+}
+ul {
+  margin-left: 30%;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+.nav-link::after {
+  transition: all 0.2s;
+  position: relative;
+}
+
+.nav-link:hover ::after {
+  content: "";
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+.navbar {
+  line-height: 50px;
+
+  width: 100%;
+  background: white;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.srch:hover {
+  width: 700px;
+  border-radius: 2rem;
+  color: white;
+  background: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .srch:hover {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.ad-1 span {
+  color: black;
+  width: 100px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 100px;
+  font-weight: 500;
+}
+.ad-1 {
+  background: rgb(191, 250, 252);
+  height: 70px;
+}

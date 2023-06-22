@@ -1,0 +1,14 @@
+.home-sec {
+  background: #ada6ef;
+  width: 100%;
+  height: auto;
+}
+
+p {
+  color: black;
+}
+
+.h-banner {
+  position: relative;
+  top: 35px;
+}
